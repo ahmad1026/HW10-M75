@@ -62,7 +62,7 @@
     </div>
   </nav>
   <main>
-    <section class="bg-secondary py-5 mb-4 text-center">
+    <section class="card-header py-5 mb-4 text-center">
       <div class="row py-lg-5">
         <div class=" col-lg-6 col-md-8 mx-auto">
           <h1 fw-light>Welcom to blog home!</h1>
@@ -71,44 +71,103 @@
       </div>
     </section>
     <div class="container d-flex flex-column flex-md-row gap-4">
-      <div class="col-8">
+      <div class="col-lg-8">
         <div class="card mb-3">
           <img src="./public/images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
-        <div class="card mb-3">
-          <img src="./public/images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <div class="d-lg-flex gap-1">
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <img src="./public/images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <button class="btn btn-primary">Read More</button>
+              </div>
+            </div>
           </div>
+          <div class="col-lg-6">
+            <div class="card mb-3">
+              <img src="./public/images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <button class="btn btn-primary">Read More</button>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="card mb-3">
-          <img src="./public/images/alexander-shatov-qt7S2QuAhJI-unsplash.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
+        <div class="d-flex justify-content-center m-auto">
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card">
+      <div class="col-lg-4">
+        <div class="card mb-3">
           <div class="card-header">Search</div>
-          <div class="input-group my-3 py-2 px-1">
-            <input type="text" class="form-control" placeholder="Enter search term..." aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-primary" type="button" id="button-addon2">Go!</button>
+          <div class="card-body">
+            <div class="input-group my-3">
+              <input type="text" class="form-control" placeholder="Enter search term..."
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-primary" type="button" id="button-addon2">Go!</button>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header">Categories</div>
+          <div class="card-body">
+            <div class="c row">
+              <div class="col-6 d-flex flex-column">
+                <a href="#">web Design</a>
+                <a href="#">HTML</a>
+                <a href="#">Freebies</a>
+              </div>
+              <div class="col-6 d-flex flex-column">
+                <a href="#">web Design</a>
+                <a href="#">HTML</a>
+                <a href="#">Freebies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">Side Widget</div>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur assumenda vel pariatur,
+              exercitationem laborum?</p>
           </div>
         </div>
       </div>
 
     </div>
   </main>
+  <footer>
+    <div class="bg-dark text-white text-center p-3">
+      © 2020 Copyright:
+    </div>
+  </footer>
 
 
 
