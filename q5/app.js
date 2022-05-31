@@ -1,26 +1,19 @@
-// function testApp() {
-//   return new Promise((resolve, reject) => {
-//     setTimeout(() => {
-//       resolve(5);
-//     }, 2000)
-//   })
+function f1() {
 
-// }
+  return "i love you";
+  
+}
+function f2(input) {
 
+  console.log(input);
+  
+}
+let promise = new Promise(function(resolve , reject){
+  resolve(f1());
+})
 
-// testApp.then((d) => {
-//     console.log(d);
+promise.then(value=>{
 
-//   }).catch(e => {
-//     console.log(e);
+  console.log(value);
 
-  // })
-
-
-  function loadScript() {
-    return new Promise(function(resolve, reject) {
-      resolve(10)
-     
-
-    });
-  }
+})
