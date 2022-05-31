@@ -16,4 +16,4 @@ promise.then(value=>{
 
   console.log(value);
 
-})
+}).catch()
